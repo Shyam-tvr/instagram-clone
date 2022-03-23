@@ -1,0 +1,396 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0;
+}
+.container{
+    height: 100%;
+    background-color:#fafafa;
+}
+.header{
+    padding: 10px 207px 7px 207px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    width: 110px;
+    margin-top: 9px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+#search{
+    background-color: #efefef;
+    border: none;
+    height: 34px;
+    width: 264px;
+    border-radius: 8px;
+    margin-top: 2px;
+    margin-left: 224px;
+}
+.lens{
+    color: #8e8e8e;
+    font-size: 20px;
+    position: absolute;
+    top: 22px;
+    left: 557px;
+}
+#search:focus{
+    border: none;
+}
+.nav-items{
+    display: flex;
+    margin-top: 8px;
+}
+.home{
+    margin-left: 79px;
+}
+.home:hover{
+    cursor: pointer;
+}
+.message{
+    margin-left: 21.8px;
+}
+.message:hover{
+    cursor: pointer;
+}
+.add{
+    margin-left: 21.8px;
+}
+.add:hover{
+    cursor: pointer;
+}
+.explore{
+    margin-left: 22.8px;
+}
+.explore:hover{
+    cursor: pointer;
+}
+.favourites{
+    margin-left: 21.8px;
+}
+.favourites:hover{
+    cursor: pointer;
+}
+.profile{
+    margin-left: 21.8px;
+}
+.profile:hover{
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    margin: 0 207px 0 207px;
+    width: auto;
+}
+.post-area{
+    margin-top: 60px;
+    height: auto;
+}
+.stories{
+    background-color: #ffffff;
+    margin-top: 24px;
+    padding-top:18px;
+    padding-left: 2px;
+    height: 118px;
+    width: 614px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}
+.story{
+    width: 64px;
+    height: 90px;
+    margin-left: 16px;
+}
+.story:hover{
+    cursor: pointer;
+}
+.story-border{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    border: 2px solid #eb615f;
+}
+.span{
+    height: 56px;
+    width: 56px;
+    margin-top: 2px;
+    margin-left: 2px;
+    border-radius: 50px;
+}
+.story-name{
+    margin: 0;
+    font-size: 12px;
+    margin-top: 4px;
+    width: 65px;
+    overflow: hidden;
+}
+.posts{
+    width: 614px;
+    height: fit-content;
+    margin-top: 26px;
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+}
+.name{
+    width: 614px;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+}
+.name-profile{
+    height: 32px;
+    width: 32px;
+    margin-top: 13px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+.name-profile:hover{
+    cursor: pointer;
+}
+.user-name{
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 64px;
+}
+.user-name:hover{
+    cursor: pointer;
+}
+.options{
+    margin-left: 526px;
+    margin-top: 17px;
+}
+.options:hover{
+    cursor: pointer;
+}
+.post{
+    width: 614px;
+    height: fit-content;
+}
+.post:hover{
+    cursor: pointer;
+}
+.like{
+    width: 614;
+    height: 38px;
+    display: flex;
+}
+.like-icon{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 27px;
+}
+.like-icon:hover{
+    cursor: pointer;
+}
+.comment-icon{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 55px;
+    width: 27px;
+}
+.comment-icon:hover{
+    cursor: pointer;
+}
+.share-icon{
+    margin-top: 12px;
+    margin-left: 95px;
+    width: 27px;
+}
+.share-icon:hover{
+    cursor: pointer;
+}
+.save{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 575px;
+}
+.save:hover{
+    cursor: pointer;
+}
+.likes{
+    margin-left: 15px;
+    display: flex;
+    color: #636363;
+}
+.like-profile{
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+    margin-left: 7px;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.likes span{
+    color: black;
+}
+.likes span:hover{
+    cursor: pointer;
+}
+.view-comments{
+    margin: 0;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #757575;
+}
+.view-comments:hover{
+    cursor: pointer;
+}
+.time{
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+    color: #757575;
+}
+.add-comment{
+    margin-top: 20px;
+    height: 50px;
+    width: 614px;
+    border-top: 1px solid #dbdbdb;
+    display: flex;
+}
+.emoji{
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 45px;
+}
+.emoji:hover{
+    cursor: pointer;
+}
+.comment{
+    width: 450px;
+    border: none;
+}
+.comment-text{
+    font-size: large;
+    color: #b9e2fd;
+    font-style: inherit;
+}
+.about{
+    height: 100vh;
+    position: fixed;
+    padding-top: 60px;
+    right: 207px;
+    width: 294px;
+}
+.about-profile{
+    height: 58px;
+    width: 58px;
+    margin-top: 51px;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.about-profile:hover{
+    cursor: pointer;
+}
+.about-user{
+    display: flex;
+}
+.about-username{
+    margin:0;
+    font-weight: 600;
+    margin-top: 58px;
+    margin-left: 10px;
+}
+.about-username:hover{
+    cursor: pointer;
+}
+.user{
+    margin: 0;
+    margin-left: 10px;
+    color: #8e8e8e;
+}
+.switch{
+    margin-top: 73px;
+    margin-left: 102px;
+    color: #0095f6;
+    font-weight: 500;
+    font-size: 12px;
+}
+.switch:hover{
+    cursor: pointer;
+}
+.suggetions{
+    display: flex;
+}
+.suggetions-head{
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-top: 17px;
+    font-weight: 500;
+    margin-left: 1px;
+}
+.see-all{
+    margin-top: 19px;
+    margin-left: 129px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.see-all:hover{
+    cursor: pointer;
+}
+.suggetion{
+    display: flex;
+    margin-bottom: 9px;
+}
+.suggetion-profile{
+    height: 32px;
+    width: 32px;
+    margin-top: 2px;
+    margin-left: 5px;
+    border-radius: 50px;
+    margin-right: 8px;
+}
+.suggetion-profile:hover{
+    cursor: pointer;
+}
+.suggetion-username{
+    margin: 0;
+    font-weight: 600;
+    margin-left: 6px;
+    font-size: 14px;
+}
+.suggetion-username:hover{
+    cursor: pointer;
+}
+.suggetion-description{
+    margin: 0;
+    margin-top: 1px;
+    margin-left: 4px;
+    color: #8e8e8e;
+    width: 170px;
+    font-size: 12px;
+}
+.follow{
+    margin-top: 11px;
+    margin-left: 39px;
+    color: #0095f6;
+    font-weight: 500;
+    font-size: 12px;
+}
+.follow:hover{
+    cursor: pointer;
+}
+.Footer{
+    margin-top: 27px;
+    font-size: 12px;
+    color: #c7c7c7;
+    line-height: 18px;
+}
+.Footer:hover{
+    cursor: pointer;
+}
+.copyright{
+    margin-top: 19px;
+    margin-left: 1px;
+}
